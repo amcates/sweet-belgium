@@ -16,16 +16,21 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        background: #fff;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar .navbar-nav {
+        padding: 30px 0 0 0;
     }
 
     .navbar-nav > li {
       width: 120px;
       text-align: center;
     }
+
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -36,7 +41,25 @@ html {
         text-align: center;
     }
 
+    .navbar .navbar-nav li a:hover {
+      background-color: #E45F5F;
+      color: #fff;
+      border-bottom: 3px solid #E45F5F;
+    }
+
+    .navbar .navbar-nav li.active a {
+      background: inherit;
+      border-bottom: 3px solid #E45F5F;
+    }
+
 }
+
+@media(max-width:991px) {
+    .navbar-nav > li {
+      width: auto;
+    }
+}
+
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
@@ -72,6 +95,17 @@ of those sections to manage the look and feel of the site. */
 
 /*  Custom CSS added by Andrew Cates */
 
-#navbar-logo-sb {
-  margin-top: -25px;
+#navbar-logo-sb-desktop, #navbar-logo-sb-large {
+  height: 75px;
+  padding-top: 5px;
+}
+
+#navbar-logo-sb-tab {
+  height: 75px;
+  padding-top: 5px;
+}
+
+#navbar-logo-sb-mobile {
+  height: 90px;
+  padding: 10px 20px;
 }
