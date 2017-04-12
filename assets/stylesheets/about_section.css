@@ -1,1 +1,29 @@
-/* insert /*
+/* .about-section */
+
+.about-section .intro-content .title {
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+  font-family: mislab-compact-std,sans-serif;
+  line-height: 60px;
+  font-size: 50px;
+  color: rgb(93, 75, 77);
+  text-align: left;
+}
+
+.about-section .intro-content .family-owned {
+  text-align: justify;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 100;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.about-section .intro-content .about {
+  text-align: justify;
+  font-family: tondo, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 300;
+}
+
+
