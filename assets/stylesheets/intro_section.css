@@ -14,6 +14,8 @@
 .intro-section .intro-image .logo {
   margin-top: 305px;
   margin-bottom: 65px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro-section .intro-image .slogan {
@@ -31,7 +33,11 @@
   line-height: 48px;
 }
 
-.intro-section .intro-text .title {
+.intro-section .intro-content .cones-image {
+  padding-top: 100px;
+}
+
+.intro-section .intro-content .title {
   background: #fff;
   padding-top: 60px;
   letter-spacing: 2px;
@@ -39,6 +45,7 @@
   line-height: 60px;
   font-size: 50px;
   color: rgb(93, 75, 77);
+  text-align: left;
 }
 
 .intro-section .intro-content {
@@ -46,7 +53,7 @@
 }
 
 .intro-section .intro-content .authentic {
-  margin-top: 100px;
+  margin-top: 50px;
   font-family: tondo,sans-serif;
   font-size: 21px;
   line-height: 25px;
