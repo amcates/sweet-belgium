@@ -1,0 +1,82 @@
+
+/* .intro-section */
+
+.intro-section .intro-content .row, .intro-section .intro-image-banner .row {
+  margin: 0 auto;
+}
+
+.intro-section .intro-image {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+}
+
+.intro-section .intro-image .logo {
+  margin-top: 305px;
+  margin-bottom: 65px;
+}
+
+.intro-section .intro-image .slogan {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.intro-section .intro-image .slogan h1 {
+  font-family: brandon-grotesque,sans-serif;
+  font-size: 40px;
+  color: #DA2922;
+  letter-spacing: -1px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+.intro-section .intro-text .title {
+  background: #fff;
+  padding-top: 60px;
+  letter-spacing: 2px;
+  font-family: mislab-compact-std,sans-serif;
+  line-height: 60px;
+  font-size: 50px;
+  color: rgb(93, 75, 77);
+}
+
+.intro-section .intro-content {
+  background: #fff;
+}
+
+.intro-section .intro-content .authentic {
+  margin-top: 100px;
+  font-family: tondo,sans-serif;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.intro-section .intro-content .visit {
+  font-family: brandon-grotesque,sans-serif;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.intro-section .intro-content .delivery {
+  font-family: tondo,sans-serif;
+  line-height: 17px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.intro-section .intro-image-banner .col-xs-4 img {
+  max-height: 255px;
+}
+
+@media (max-width:992px) {
+  .intro-section .intro-image-banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
