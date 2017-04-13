@@ -12,8 +12,3 @@ body, div, dl, dt, dd, ul, ol, li, nav, h1, h2, h3, h4, h5, h6, pre, code, form,
     padding: 0;
     transform-origin: left top 0;
 }
-
-.clearfix {
-  clear: both;
-}
-
