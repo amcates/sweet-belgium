@@ -29,6 +29,7 @@
 }
 
 .intro-section .intro-content .cones-image {
+  padding-bottom: 20px;
 }
 
 .intro-section .intro-content .cones-image img {
@@ -73,6 +74,10 @@
   font-weight: 300;
 }
 
+.intro-section .intro-image-banner {
+  background-color: #82b3c9;
+}
+
 .intro-section .intro-image-banner .col-xs-12 img {
   max-height: 255px;
 }
@@ -80,16 +85,15 @@
 /* iOS and mobile device settings */
 @media(max-width:767px) {
   .intro-section .intro-image {
-    height: 500px;
+    height: 450px;
   }
 
-  .intro-section .intro-image .logo {
-    padding-bottom: 75px;
+  .intro-section .intro-image .slogan {
+    padding-top: 350px;
   }
 
   .intro-section .intro-image .slogan h1 {
     font-size: 35px;
-    font-weight: 400;
     line-height: 38px;
   }
 
