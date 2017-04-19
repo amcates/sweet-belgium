@@ -60,9 +60,6 @@
 
 /* iOS and mobile device settings */
 @media(max-width:767px) {
-  .about-section {
-    padding-top: 100px;
-  }
 
   .about-section .intro-content .title {
     font-size: 30px;
@@ -72,9 +69,6 @@
   .about-section .intro-content .family-owned {
     font-size: 20px;
     line-height: 30px;
-  }
-
-  .about-section .intro-content .about {
   }
 
 }

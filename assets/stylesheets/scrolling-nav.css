@@ -71,25 +71,25 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    padding-top: 120px;
+    padding-top: 20px;
     text-align: center;
     background: #D2FFF6;
 }
 
 .events-section {
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
-    background: #fff;
+    background: #f6f7f1;
 }
 
 .orders-section {
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
     background: #fff;
 }
 
 .gallery-section {
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
     background: #fff;
 }

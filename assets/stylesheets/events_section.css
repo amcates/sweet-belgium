@@ -1,0 +1,78 @@
+/* .events-section */
+
+.events-section h1.special {
+  color: #5d4b4d;
+  font-family: mislab-compact-std,sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+.events-section .intro-content {
+  padding-bottom: 20px;
+}
+
+.events-section h1.bring-original {
+  color: #5d4b4d;
+  font-size: 38px;
+  text-align: center;
+  font-family: brandon-grotesque,sans-serif;
+  line-height: 48px;
+  letter-spacing: 0;
+  font-weight: 100;
+  padding-bottom: 25px;
+}
+
+.events-section p.events-content {
+  font-family: tondo,sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: justify;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.events-section .offer-button {
+    color: #5d4b4d;
+    font-family: brandon-grotesque,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.events-section .offer-button:hover,
+.events-section .offer-button:focus,
+.events-section .offer-button:active
+{
+    padding: 8px;
+    width: 275px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #5d4b4d;
+    color: #fff;
+    border-radius: 22.5px;
+}
+
+
+/* iOS and mobile device settings */
+@media(max-width:767px) {
+  .events-section h1.special {
+    font-size: 35px;
+  }
+
+  .events-section h1.bring-original {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 200;
+  }
+}
