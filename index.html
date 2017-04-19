@@ -20,6 +20,7 @@
     <link href="assets/stylesheets/intro_section.css" rel="stylesheet">
     <link href="assets/stylesheets/about_section.css" rel="stylesheet">
     <link href="assets/stylesheets/events_section.css" rel="stylesheet">
+    <link href="assets/stylesheets/orders_section.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +39,7 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-offset="80" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-offset="82" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -200,13 +201,23 @@
 
     <!-- Orders Section -->
     <section id="orders" class="orders-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Orders Section</h1>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+            <h1 class="orders">Orders</h1>
+            <h1 class="products">Order any of the products from the menu below with fresh toppings and Belgian chocolate!</h1>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4">
+            <a href="assets/menu.pdf" target="_blank"><img src="assets/images/pdf-icon.png" class="img-responsive"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-4 order-button-container">
+            <a href="mailto:sergio.tosi@sweet-belgium.com" class="btn btn-default btn-round-lg order-button">ORDER NOW</a>
+          </div>
+      </div>
     </section>
 
     <div class="clearfix"></div>

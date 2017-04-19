@@ -1,6 +1,6 @@
-/* .events-section */
+/* .orders-section */
 
-.events-section h1.special {
+.orders-section h1.orders {
   color: #5d4b4d;
   font-family: mislab-compact-std,sans-serif;
   letter-spacing: 2px;
@@ -10,11 +10,7 @@
   padding-bottom: 15px;
 }
 
-.events-section .intro-content {
-  padding-bottom: 20px;
-}
-
-.events-section h1.bring-original {
+.orders-section h1.products {
   color: #5d4b4d;
   font-size: 38px;
   text-align: center;
@@ -25,16 +21,11 @@
   padding-bottom: 25px;
 }
 
-.events-section p.events-content {
-  font-family: tondo,sans-serif;
-  font-size: 15px;
-  line-height: 23px;
-  text-align: justify;
-  font-weight: 300;
-  padding-bottom: 30px;
+.orders-section .order-button-container {
+  padding-top: 20px;
 }
 
-.events-section .offer-button {
+.orders-section .order-button-container .order-button {
     color: #fff;
     background-color: #84D3D4;
     font-family: brandon-grotesque,sans-serif;
@@ -51,9 +42,9 @@
     transition: all .5s;
 }
 
-.events-section .offer-button:hover,
-.events-section .offer-button:focus,
-.events-section .offer-button:active
+.orders-section .order-button-container .order-button:hover,
+.orders-section .order-button-container .order-button:focus,
+.orders-section .order-button-container .order-button:active
 {
     padding: 8px;
     width: 275px;
@@ -67,13 +58,14 @@
 
 /* iOS and mobile device settings */
 @media(max-width:767px) {
-  .events-section h1.special {
+  .orders-section h1.orders {
     font-size: 35px;
   }
 
-  .events-section h1.bring-original {
+  .orders-section h1.products {
     font-size: 22px;
     line-height: 28px;
     font-weight: 200;
   }
 }
+
