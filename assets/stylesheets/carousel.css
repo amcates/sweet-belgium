@@ -1,0 +1,18 @@
+.carousel {
+  background: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel .item img {
+  margin: 0 auto; /* Align slide image horizontally center */
+  height: 500px;
+  width: auto;
+}
+
+/* iOS and mobile device settings */
+@media(max-width:767px) {
+  .carousel .item img {
+    height: 250px;
+    width: auto;
+  }

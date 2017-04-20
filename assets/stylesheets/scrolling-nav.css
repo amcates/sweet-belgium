@@ -91,7 +91,8 @@ of those sections to manage the look and feel of the site. */
 .gallery-section {
     padding-top: 20px;
     text-align: center;
-    background: #fff;
+    background: #000;
+    padding-bottom: 20px;
 }
 
 .contact-section {
