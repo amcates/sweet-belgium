@@ -46,25 +46,70 @@
   font-weight: 600;
 }
 
-.contact-section .google-map {
+.contact-section .contact-left .google-map {
   margin: 0 auto;
   width: 90%;
-  height: 400px;;
+  height: 300px;;
+}
+
+.contact-section .contact-right .head-shots .title {
+  font-family: mislab-compact-std,sans-serif;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.contact-section .contact-right .head-shots .info {
+  font-family: tondo,sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.contact-section .contact-right .head-shots .phone {
+  color: #fff;
+}
+
+.contact-section .contact-right .head-shots img {
+  margin: 50px auto 15px auto;
 }
 
 /* iOS and mobile device settings */
 @media(max-width:767px) {
   .contact-section .contact-left h1.contact-us {
-    font-size: 22px;
+    font-size: 28px;
+    padding-bottom: 5px;
   }
 
   .contact-section .contact-left h1.get-in-touch {
     font-size: 35px;
     line-height: 28px;
     font-weight: 200;
+    padding-bottom: 5px;
   }
 
-  .contact-section .google-map {
+  .contact-section .contact-left .mobile-head-shots {
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .contact-section .contact-left .mobile-head-shots img {
+    margin: 0 auto;
+  }
+
+  .contact-section .contact-left .mobile-head-shots .title {
+    font-weight: 500;
+  }
+
+  .contact-section .contact-left .mobile-head-shots .info {
+    font-weight: 300;
+  }
+
+  .contact-section .contact-left .google-map {
     margin: 0 auto;
     width: 90%;
     height: 300px;;
