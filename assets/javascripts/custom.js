@@ -18,8 +18,8 @@ $(function() {
     if (e.isDefaultPrevented()) {
       // handle the invalid form...
     } else {
-      submitContactForm();
       e.preventDefault();
+      submitContactForm();
       // everything looks good!
     }
   });
@@ -35,7 +35,7 @@ function submitContactForm(){
     dataType: 'json',
     data: form_data,
     success: function(ret_data, status) {
-      if(ret_data.MusePHPFormResponse.success == 'true') {
+      if(ret_data && ret_data.FormResponse && ret_data.FormResponse.success == true) {
         swal("Thanks!", "We'll be in touch shortly.", 'success');
       }
       else {
