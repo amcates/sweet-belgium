@@ -23,6 +23,7 @@
     <link href="assets/stylesheets/orders_section.css" rel="stylesheet">
     <link href="assets/stylesheets/carousel.css" rel="stylesheet">
     <link href="assets/stylesheets/contact_section.css" rel="stylesheet">
+    <link href="assets/stylesheets/footer.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -252,7 +253,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 contact-left">
                   <h1 class="contact-us">CONTACT US.</h1>
@@ -260,17 +261,19 @@
                   <!-- only visible on mobile -->
                   <div class="col-xs-12 mobile-head-shots hidden-sm hidden-md hidden-lg">
                     <div class="col-xs-6 head-shots">
-                      <img src="assets/images/sergio_head_shot.jpg" class="img-circle img-responsive">
+                      <img src="assets/images/sergio_head_shot.jpg" class="img-circle img-responsive head-shot">
                       <p class="title">Sergio Tosi</p>
                       <p class="info">Founder of Sweet Belgium,</p>
                       <p class="info">Sales and Events</p>
                       <p class="info">T: 843 642 6669</p>
+                      <p class="info email"><a href="mailto:sergio.tosi@sweet-belgium.com"><img src="assets/images/icon-email.png"></a></p>
                     </div>
                     <div class="col-xs-6 head-shots">
-                      <img src="assets/images/audrey_head_shot.jpg" class="img-circle img-responsive">
+                      <img src="assets/images/audrey_head_shot.jpg" class="img-circle img-responsive head-shot">
                       <p class="title">Audrey Marques</p>
                       <p class="info">Marketing and Accounting</p>
                       <p class="info">T: 843 642 6702</p>
+                      <p class="info email"><a href="mailto:audrey.marques@sweet-belgium.com"><img src="assets/images/icon-email.png"></a></p>
                     </div>
                   </div>
                   <!-- end mobile only section -->
@@ -316,24 +319,55 @@
                   <!-- only visible to devices bigger than mobile -->
                   <div class="hidden-xs">
                     <div class="col-sm-6 head-shots">
-                      <img src="assets/images/sergio_head_shot.jpg" class="img-circle img-responsive">
+                      <img src="assets/images/sergio_head_shot.jpg" class="img-circle img-responsive head-shot">
                       <p class="title">Sergio Tosi</p>
                       <p class="info">Founder of Sweet Belgium,</p>
                       <p class="info">Sales and Events</p>
                       <p class="info phone">T: 843 642 6669</p>
+                      <p class="info email"><a href="mailto:sergio.tosi@sweet-belgium.com"><img src="assets/images/icon-email.png"></a></p>
                     </div>
                     <div class="col-sm-6 head-shots">
-                      <img src="assets/images/audrey_head_shot.jpg" class="img-circle img-responsive">
+                      <img src="assets/images/audrey_head_shot.jpg" class="img-circle img-responsive head-shot">
                       <p class="title">Audrey Marques</p>
                       <p class="info">Marketing and Accounting</p>
                       <p class="info phone">T: 843 642 6702</p>
+                      <p class="info email"><a href="mailto:audrey.marques@sweet-belgium.com"><img src="assets/images/icon-email.png"></a></p>
                     </div>
                   </div>
                   <!-- end bigger device section -->
+                  <div class="contact-form col-xs-10 col-xs-offset-1">
+                    <form>
+                      <div class="form-group">
+                        <label for="custom_U13295">Enter Name</label>
+                        <input type="text" class="form-control" id="custom_U13295">
+                      </div>
+                      <div class="form-group">
+                        <label for="widgetu13286_input">Enter Email</label>
+                        <input type="email" class="form-control" id="widgetu13286_input">
+                      </div>
+                      <div class="form-group">
+                        <label for="widgetu13299_input">Enter Phone</label>
+                        <input type="text" class="form-control" id="widgetu13299_input">
+                      </div>
+                      <div class="form-group">
+                        <label for="widgetu13290_input">Enter Message</label>
+                        <textarea class="form-control" id="widgetu13290_input" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-default">SEND</button>
+                    </form>
+                  </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 footer">
+          © 2016 | SWEET BELGIUM L.L.C.
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery -->
     <script src="assets/javascripts/jquery.js"></script>

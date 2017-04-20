@@ -1,5 +1,22 @@
 /* .contact-section */
 
+/* make columns the same height */
+
+.contact-section .row {
+  overflow: hidden;
+}
+
+.contact-section .row [class*="col-"] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+/* end making columns the same height */
+
+.contact-section .email a img {
+  width: 35px;
+}
+
 .contact-section .contact-right {
   background-color: #84D3D4;
 }
@@ -49,7 +66,7 @@
 .contact-section .contact-left .google-map {
   margin: 0 auto;
   width: 90%;
-  height: 300px;;
+  height: 300px;
 }
 
 .contact-section .contact-right .head-shots .title {
@@ -71,8 +88,54 @@
   color: #fff;
 }
 
-.contact-section .contact-right .head-shots img {
+.contact-section .contact-right .head-shots .head-shot {
   margin: 50px auto 15px auto;
+}
+
+.contact-section .contact-right .contact-form {
+  padding-top: 40px;
+}
+
+.contact-section .contact-right .contact-form form {
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.contact-section .contact-right .contact-form form label {
+  font-family: raleway,sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 15px;
+}
+
+.contact-section .contact-right .contact-form form button {
+  background-color: #e16f72;
+  border-radius: 0;
+  color: #ffffff;
+  font-family: brandon-grotesque,sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  height: 16px;
+  letter-spacing: 2px;
+  line-height: 13px;
+  padding: 12px 0 10px;
+  width: 177px;
+  height: 45px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.contact-section .contact-right .contact-form form button:hover,
+.contact-section .contact-right .contact-form form button:focus,
+.contact-section .contact-right .contact-form form button:active {
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #000;
 }
 
 /* iOS and mobile device settings */
@@ -97,7 +160,7 @@
     line-height: 20px;
   }
 
-  .contact-section .contact-left .mobile-head-shots img {
+  .contact-section .contact-left .mobile-head-shots .head-shot {
     margin: 0 auto;
   }
 
@@ -110,7 +173,7 @@
   }
 
   .contact-section .contact-left .google-map {
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     width: 90%;
     height: 300px;;
   }
