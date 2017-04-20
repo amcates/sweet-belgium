@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Sweet Alert CSS -->
+    <link href="assets/stylesheets/sweetalert.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="assets/stylesheets/scrolling-nav.css" rel="stylesheet">
     <link href="assets/stylesheets/custom.css" rel="stylesheet">
@@ -324,6 +327,7 @@
                       <p class="info">Founder of Sweet Belgium,</p>
                       <p class="info">Sales and Events</p>
                       <p class="info phone">T: 843 642 6669</p>
+                      <p>&nbsp;</p>
                       <p class="info email"><a href="mailto:sergio.tosi@sweet-belgium.com"><img src="assets/images/icon-email.png"></a></p>
                     </div>
                     <div class="col-sm-6 head-shots">
@@ -331,27 +335,35 @@
                       <p class="title">Audrey Marques</p>
                       <p class="info">Marketing and Accounting</p>
                       <p class="info phone">T: 843 642 6702</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
                       <p class="info email"><a href="mailto:audrey.marques@sweet-belgium.com"><img src="assets/images/icon-email.png"></a></p>
                     </div>
                   </div>
                   <!-- end bigger device section -->
                   <div class="contact-form col-xs-10 col-xs-offset-1">
-                    <form>
-                      <div class="form-group">
+                    <form data-toggle="validator" role="form">
+                      <div class="form-group has-feedback">
                         <label for="custom_U13295">Enter Name</label>
-                        <input type="text" class="form-control" id="custom_U13295">
+                        <input type="text" class="form-control" id="custom_U13295" name="custom_U13295" data-error="Name is required" required>
+                        <div class="help-block with-errors"></div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                      <div class="form-group has-feedback">
+                        <label for="Email">Enter Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" pattern="^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$" data-error="Invalid e-mail format" required>
+                        <div class="help-block with-errors"></div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                      </div>
+                      <div class="form-group has-feedback">
+                        <label for="custom_U13299">Enter Phone</label>
+                        <input type="text" class="form-control" id="custom_U13299" name="custom_U13299" data-error="Phone number is required" required>
+                        <div class="help-block with-errors"></div>
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                       </div>
                       <div class="form-group">
-                        <label for="widgetu13286_input">Enter Email</label>
-                        <input type="email" class="form-control" id="widgetu13286_input">
-                      </div>
-                      <div class="form-group">
-                        <label for="widgetu13299_input">Enter Phone</label>
-                        <input type="text" class="form-control" id="widgetu13299_input">
-                      </div>
-                      <div class="form-group">
-                        <label for="widgetu13290_input">Enter Message</label>
-                        <textarea class="form-control" id="widgetu13290_input" rows="3"></textarea>
+                        <label for="custom_U13290">Enter Message</label>
+                        <textarea class="form-control" id="custom_U13290" name="custom_U13290" rows="3"></textarea>
                       </div>
                       <button type="submit" class="btn btn-default">SEND</button>
                     </form>
@@ -379,8 +391,12 @@
     <script src="assets/javascripts/jquery.easing.min.js"></script>
     <script src="assets/javascripts/scrolling-nav.js"></script>
 
+    <!-- Sweet Alert -->
+    <script src="assets/javascripts/sweetalert.min.js"></script>
+
     <!-- Custom js -->
     <script src="assets/javascripts/custom.js"></script>
+    <script src="assets/javascripts/validator.js"></script>
 
 </body>
 

@@ -13,5 +13,35 @@ $(function() {
 
     first_item = 1;
   }
+
+  $('.contact-form form').validator().on('submit', function (e) {
+    if (e.isDefaultPrevented()) {
+      // handle the invalid form...
+    } else {
+      submitContactForm();
+      e.preventDefault();
+      // everything looks good!
+    }
+  });
 });
+
+function submitContactForm(){
+  var form = $('.contact-form form');
+  var form_data = form.serialize();
+
+  $.ajax({
+    type: 'POST',
+    url: '../scripts/form-u13283.php',
+    dataType: 'json',
+    data: form_data,
+    success: function(ret_data, status) {
+      if(ret_data.MusePHPFormResponse.success == 'true') {
+        swal("Thanks!", "We'll be in touch shortly.", 'success');
+      }
+      else {
+        swal("Oops!", "The server encountered an error.", 'error');
+      }
+    }
+  });
+}
 
