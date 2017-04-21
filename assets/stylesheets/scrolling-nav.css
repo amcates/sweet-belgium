@@ -115,3 +115,13 @@ of those sections to manage the look and feel of the site. */
   height: 90px;
   padding: 10px 20px;
 }
+
+/* Social Media Links */
+
+.navbar .social li {
+  width: 60px;
+}
+
+.navbar .social li a {
+  color: #fff;
+}
