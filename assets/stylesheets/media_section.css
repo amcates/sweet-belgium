@@ -1,0 +1,12 @@
+/* .media-section */
+
+.media-section h1.header {
+  color: #5d4b4d;
+  font-family: mislab-compact-std,sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
