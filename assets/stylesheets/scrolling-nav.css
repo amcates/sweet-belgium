@@ -125,3 +125,18 @@ of those sections to manage the look and feel of the site. */
 .navbar .social li a {
   color: #fff;
 }
+
+/* iOS and mobile device settings */
+@media(max-width:767px) {
+  .navbar .social li {
+    width: auto;
+  }
+
+  .navbar .social li a {
+    padding-left: 44px;
+    padding-top: 6px;
+    margin-bottom: 5px;
+  }
+}
+
+
